@@ -1,0 +1,66 @@
+[
+  {
+    "id": "D:Q-N-0",
+    "iterations": [
+      "Hi! I'm Deamona, you new PC assistant. How are you?",
+      "Hey it's Deamona! What's Up?",
+      "Heyyyyy hows it been?"
+    ],
+    "sentiment": "surprised",
+    "paths": ["H:R-N-0", "H:R-N-1", "H:R-N-2"]
+  },
+  {
+    "id": "D:Q-N-1",
+    "iterations": [
+      "Well I'm glad you're doing okay! You need help with anything?",
+      "You need help with anything?",
+      "It sounds like all is well. Can I help you with anything?"
+    ],
+    "sentiment": "smirk",
+    "paths": ["H:R-I-0", "H:R-I-1", "H:R-I-2"]
+  },
+  {
+    "id": "D:Q-N-2",
+    "iterations": [
+      "My algorithm detects saddness. Should I do something?",
+      "Ok, how can I help?"
+    ],
+    "sentiment": "confused",
+    "paths": ["H:R-I-0", "H:R-I-1", "H:R-I-2"]
+  },
+  {
+    "id": "D:Q-N-3",
+    "iterations": [
+      "Of course! I'm always happy to help! Btw I have a few questions if you don't mind me asking?"
+    ],
+    "sentiment": "surprised",
+    "paths": ["H:R-N-4", "H:R-H-0"]
+  },
+  {
+    "id": "D:Q-I-0",
+    "iterations": [
+      "Searching for pictures folder... Found it! here's a picture."
+    ],
+    "sentiment": "smirk",
+    "paths": ["H:R-N-3"]
+  },
+  {
+    "id": "D:Q-I-1",
+    "iterations": ["Oh, well in that case, do you like ice cream?"],
+    "sentiment": "smirk",
+    "paths": ["H:R-N-3"]
+  },
+  {
+    "id": "D:Q-H-0",
+    "iterations": [
+      "Oh. Okay then, i'll just be here then.",
+      "Huh. Kinda rude but okay.",
+      "Well then... am I detecting shade?",
+      "Oof. Right in the feels detection unit...",
+      "I was programmed with emotions you know."
+    ],
+    "sentiment": "focused",
+    "paths": ["H:R-N-5", "H:R-H-0"],
+    "events": ["INC_TEMPERMENT"]
+  }
+]

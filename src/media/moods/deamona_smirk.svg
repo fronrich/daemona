@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="600px" height="600px" viewBox="0 0 200 200"
+  style="overflow:hidden!important;">
+  <g id="svga-group-wrapper">
+    <g id="svga-group-backs-single">
+      <path id="SvgjsPath6356" d="M0 0h200v200H0V0z" fill="none" stroke-width="none" opacity="1" stroke="none">
+      </path>
+    </g>
+    <g id="svga-group-humanwrap-move" transform="matrix(1,0,0,1,0,0)">
+      <g id="svga-group-humanwrap">
+        <g id="svga-group-hair-back-move"
+          transform="matrix(0.9986295346632303,0.0523359579858812,-0.0523359579858812,0.9986295346632303,8.249120021488551,-5.021173671388823)">
+          <g id="svga-group-hair-back"></g>
+        </g>
+        <g id="svga-group-humanbody-back">
+          <path id="SvgjsPath6423"
+            d="m168.2 200-4.6-14.2-34.9-13.4-10.8-9.7-1.4-50.5h-33l-1.4 50.5-10.8 9.7-34.9 13.4-4.6 14.2-3 20h142.4z"
+            fill="#f6e4e2" stroke-width="none" opacity="1" stroke="none"></path>
+          <path id="SvgjsPath6424"
+            d="m83.5 112.2-1.4 50.5-10.8 9.7-34.9 13.4-4.6 14.2-3 20H39v-20l1.7-13.3 32.1-12.9 14.1-9.5 2-52.1z"
+            fill="#d7a19b" stroke-width="none" opacity="1" stroke="none"></path>
+        </g>
+        <g id="svga-group-chinshadow-single">
+          <path id="SvgjsPath9104" d="m117.4 146.9-.9-34.7h-33l-1 38.2 10.7 7 4 1.1 4.1-1.1z" fill="#c8837c"
+            stroke-width="none" opacity="1" stroke="none"></path>
+        </g>
+        <g id="svga-group-humanbody-front"></g>
+        <g id="svga-group-clothes-single">
+          <path id="SvgjsPath10772"
+            d="m168.9 200-4.8-14.6-35-13.5-10.8-9.6-.5-14.9-.5-1.1-5.3 2.7-12.1 1.7-12-1.7-5.3-2.7-.5 1.1-.5 14.9-10.8 9.6-35 13.5L31 200l-3 20h144l-3.1-20zm-64.6 3.2h-8.8l-7.9-8.7L93 167l6.9 1.1 6.9-1.1 5.4 27.5-7.9 8.7z"
+            fill="#ffd3f5" stroke-width="none" opacity="1" stroke="none"></path>
+          <path id="SvgjsPath10773"
+            d="m168.9 200-4.8-14.6-35-13.5-10.8-9.5-.5-14.9-.1-.3-3.8 3.1.4 14.6 12 11.8 34.5 11 4.8 13 3.5 19.3h2.9z"
+            fill="#ffecfb" stroke-width="none" opacity="1" stroke="none"></path>
+          <path id="SvgjsPath10774"
+            d="m151.9 195.9-3.8 13.4-.5 10.7h1.5v-10.1l3.5-13.1 6.6-9.1-7.3 8.2zm-52-28.4-8.2-1.4-5.2 28.8 8.6 9.4h9.6l8.6-9.4-5.2-28.8-8.2 1.4zm4.4 35.7h-8.8l-7.9-8.7L93 167l6.9 1.1 6.9-1.1 5.4 27.5-7.9 8.7zM112 149l-12.1 1.7-12-1.7-5.3-2.7-.4.9-.1.2-.5 14.9-10.8 9.6-35 13.5L31 200l-3 20h8l1.7-20 4.8-10.1 5 6.9 3.5 13.1V220h1.5l-.5-10.7-4-13.4-5.5-6.2.1-.3 29.5-11.2 15.6-12.1.1-15.6c1.8 1 3.1 1.8 3.1 1.8l18.5-.2 7.9-5.3-.1-.3-5.2 2.5z"
+            fill="#f0aee1" stroke-width="none" opacity="1" stroke="none"></path>
+        </g>
+        <g id="svga-group-head"
+          transform="matrix(0.9986295346632303,0.0523359579858812,-0.0523359579858812,0.9986295346632303,8.249120021488551,-5.021173671388823)">
+          <g id="svga-group-ears-left-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-ears-left">
+              <path id="SvgjsPath6373"
+                d="M64.1 91.8s-6-.7-10.6-3.7c0 0-3.5 9.4-4 14.4 0 0 6.7 13 10 18.5 0 0 5.2-.7 6.3-1.4l1.4-8.4-3.1-19.4z"
+                fill="#f6e4e2" stroke-width="none" opacity="1" stroke="none"></path>
+              <path id="SvgjsPath6374"
+                d="M54.3 90c-.2-.4-.8-1.9-.8-1.9 5.2.4 10.7 1.4 10.7 1.4l3 21.7-1.4 8.4c-1.1.7-6.3 1.4-6.3 1.4-.6-1-1.3-2.4-2.1-3.7l2.6 1 3-1.6s.7-11.2.5-11.5c-.1-.3-9-14.8-9.2-15.2z"
+                fill="#e7c1bd" stroke-width="none" opacity="1" stroke="none"></path>
+              <path id="SvgjsPath6375" d="m51.3 100.9 2.8-5.5 5.2 6.8 2.2 9.5-1.4 1.9-4.3-7.6 1-4.7-2.6-4z"
+                fill="#d7a19b" stroke-width="none" opacity="1" stroke="none"></path>
+            </g>
+          </g>
+          <g id="svga-group-ears-right-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-ears-right">
+              <path id="SvgjsPath6376"
+                d="M135.9 91.8s6-.7 10.6-3.7c0 0 3.5 9.4 4 14.4 0 0-6.7 13-10 18.5 0 0-5.2-.7-6.3-1.4l-1.4-8.4 3.1-19.4z"
+                fill="#f6e4e2" stroke-width="none" opacity="1" stroke="none"></path>
+              <path id="SvgjsPath6377"
+                d="M145.7 90c.2-.4.8-1.9.8-1.9-5.2.4-10.7 1.4-10.7 1.4l-3 21.73 1.4 8.37c1.1.7 6.3 1.4 6.3 1.4.6-1 1.3-2.4 2.1-3.7l-2.6 1-3-1.6s-.7-11.2-.5-11.5c.1-.3 9-14.8 9.2-15.2z"
+                fill="#e7c1bd" stroke-width="none" opacity="1" stroke="none"></path>
+              <path id="SvgjsPath6378" d="m148.7 100.9-2.8-5.5-5.2 6.8-2.2 9.5 1.4 1.9 4.3-7.6-1-4.7 2.6-4z"
+                fill="#d7a19b" stroke-width="none" opacity="1" stroke="none"></path>
+            </g>
+          </g>
+          <g id="svga-group-faceshape-wrap">
+            <g id="svga-group-faceshape-single">
+              <path id="SvgjsPath9094"
+                d="M136.8 61c-6.7-11.2-19-18.9-19-18.9-7-1.5-17.8-2.2-17.8-2.2s-10.8.8-17.8 2.2c0 0-12.4 7.6-19 18.9 0 0-5 14-5.2 23.9l2.1 23 6.6 19.2 6.3 8.4 23 15 4 1 4-1 22.9-14.9 6.3-8.4 6.6-19.2 2.1-23c-.2-9.9-5.1-24-5.1-24z"
+                fill="#f6e4e2" stroke-width="none" opacity="1" stroke="none"></path>
+              <path id="SvgjsPath9095"
+                d="m93.8 147.5-17.6-13.8-6.2-8.1-6.2-17.5-3-23 6-22.3 17-18 16-3.3 18 .6c-7-1.5-17.8-2.2-17.8-2.2s-10.8.8-17.8 2.2c0 0-12.4 7.6-19 18.9 0 0-5 14-5.2 23.9l2.1 23 6.6 19.2 6.3 8.4 23 15 4 1 4-1-3.7.3-6.5-3.3z"
+                fill="#d7a19b" stroke-width="none" opacity="1" stroke="none"></path>
+            </g>
+          </g>
+          <g id="svga-group-mouth-single-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-mouth-single">
+              <path id="SvgjsPath12498"
+                d="m90.86 133.49.13 1.07 6.52 3.88 11.26-1.42 5.5-6.18s-14.32-.27-14.52-.27-8.89 2.92-8.89 2.92z"
+                fill="#da7c87" stroke-width="none" opacity="1" transform="translate(0 3)" stroke="none"></path>
+              <path id="SvgjsPath12499"
+                d="m87.85 133.25 3.14 1.31 9.34-2.99 13.94-.73 3.94-3.5 1.03.51-2.27-2.56.29 1.97-3.57 2.05-8.83-2.27-3.94 2.34-4.89-1.39-6.94 4.89z"
+                fill="#cb5f6c" stroke-width="none" opacity="1" transform="translate(0 3)" stroke="none"></path>
+              <path id="SvgjsPath12500" d="m96.42 133.72 4.19-1.4 6.91-.15-6.6 1.63z" fill="#e99ca5" stroke-width="none"
+                opacity="1" transform="translate(0 3)" stroke="none"></path>
+            </g>
+          </g>
+          <g id="svga-group-eyes-left-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-eyes-left">
+              <g id="svga-group-eyesback-left">
+                <path id="SvgjsPath12589" d="m91.1 102.6-4.4-3.8-8.3-2.2-8.4.3 7.7 5.7 3.5 1z" fill="#ffffff"
+                  stroke-width="none" opacity="1"></path>
+              </g>
+              <g id="svga-group-eyesiriswrapper-left" transform="matrix(1,0,0,1,0,0)">
+                <g id="svga-group-eyesiriscontrol-left" transform="matrix(1,0,0,1,0,0)">
+                  <g id="svga-group-eyesiris-left">
+                    <path id="SvgjsPath9692" d="M77.9 102.5 76.8 99l1.7-3.3 3.5-1.1 3.2 1.7 1.2 3.5-1.7 3.2-3.5 1.2z"
+                      fill="#eab9d8" stroke-width="none" opacity="1" stroke="none"></path>
+                    <path id="SvgjsPath9693"
+                      d="m81.9 94.9 3.1 1.6 1.1 3.3-1.6 3.1-3.3 1.1-3.1-1.6-1-3.4 1.6-3.1 3.2-1m.1-.6-3.7 1.2-1.8 3.5 1.2 3.7 3.4 1.8 3.7-1.2 1.8-3.4-1.2-3.7-3.4-1.9z"
+                      fill="#cb78ad" stroke-width="none" opacity="1" stroke="none"></path>
+                    <path id="SvgjsPath9694" d="M82.6 96.8h-2.1L79 98.4l.1 2.1 1.5 1.4h2.1l1.5-1.5-.1-2.1z"
+                      fill="#000000" stroke-width="none" opacity="1"></path>
+                    <path id="SvgjsPath9695"
+                      d="m78.8 96.4.8 1-1.1-.7.3-.3zm1.8-.8v1.1l-.5-1 .5-.1zm1.6-.3-.3 1.2-.2-1.2h.5zm1.5.8-.7.8.3-1 .4.2zm1.4 1-1.2.7.9-1.1.3.4zm.5 1.7h-1.2l1.1-.5.1.5zm.1 1.3-1.1-.4 1.2-.1-.1.5zm-.8 1.3-.7-.7 1 .3-.3.4zm-.7 1.3-.7-1.1 1 .8-.3.3zm-1.7.5-.1-1.2.6 1.1-.5.1zm-1.6.2.4-1.1.1 1.2-.5-.1zm-1.8-1 .8-.8-.4 1.1-.4-.3zm-1.1-1.5.9-.3-.7.7-.2-.4zm-.4-1.5 1.2.3-1.2.2v-.5zm.4-1.7.7.6-.9-.1.2-.5z"
+                      fill="#cb78ad" stroke-width="none" opacity="1" stroke="none"></path>
+                    <path id="SvgjsPath9696" d="m78.8 97.1 2 1.8.6-.4-1.2-2.4-1.4 1zm3.7 4.2.5.8.8-.3-.4-.9-.9.4z"
+                      fill="#ffffff" stroke-width="none" opacity="1"></path>
+                  </g>
+                </g>
+              </g>
+              <g id="svga-group-eyesfront-left">
+                <path id="SvgjsPath12597"
+                  d="M68 94.5v11.1l7.7 7.9h10.9l7.7-7.9V94.5l-7.7-7.9H75.7L68 94.5zm2 2.4 8.4-.2 8.3 2.2 4.5 3.8-9.9 1-3.5-.9-7.8-5.9z"
+                  fill="#f6e4e2" stroke-width="none" opacity="1"></path>
+                <path id="SvgjsPath12598" d="m92.2 102.7-1.1-.1-4.4-3.8-8.3-2.2-8.4.3 2.7-1.8 8.3-1.7 7.4 2.3z"
+                  fill="#eed2cf" stroke-width="none" opacity="1"></path>
+                <path id="SvgjsPath12599"
+                  d="m72.6 97.1-2.9.2-6-.8 6.3.1 9-.5 8 2.4 5.2 4.2-1 .1-4.6-3.8-8.3-2.2h-.7l-2.5 1.4-2.5.9 2.3-1.2 1.5-1-1.8.1-2.3.9-5.7.9 5.5-1.4z"
+                  fill="#000000" stroke-width="none" opacity="1"></path>
+              </g>
+            </g>
+          </g>
+          <g id="svga-group-eyes-right-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-eyes-right">
+              <g id="svga-group-eyesback-right">
+                <path id="SvgjsPath12590" d="m108.9 102.6 4.4-3.8 8.3-2.2 8.4.3-7.7 5.7-3.5 1z" fill="#ffffff"
+                  stroke-width="none" opacity="1"></path>
+              </g>
+              <g id="svga-group-eyesiriswrapper-right" transform="matrix(1,0,0,1,0,0)">
+                <g id="svga-group-eyesiriscontrol-right" transform="matrix(1,0,0,1,0,0)">
+                  <g id="svga-group-eyesiris-right">
+                    <path id="SvgjsPath9697" d="m114.8 102.5-1.2-3.5 1.7-3.3 3.5-1.1 3.3 1.7 1.1 3.5-1.7 3.2-3.5 1.2z"
+                      fill="#eab9d8" stroke-width="none" opacity="1" stroke="none"></path>
+                    <path id="SvgjsPath9698"
+                      d="m118.8 94.9 3.1 1.6 1.1 3.3-1.6 3.1-3.3 1.1-3.1-1.6-1.1-3.3 1.6-3.1 3.3-1.1m0-.6-3.7 1.2-1.8 3.4 1.2 3.7 3.4 1.8 3.7-1.2 1.8-3.4-1.2-3.7-3.4-1.8z"
+                      fill="#cb78ad" stroke-width="none" opacity="1" stroke="none"></path>
+                    <path id="SvgjsPath9699" d="M119.4 96.8h-2.1l-1.5 1.6.1 2.1 1.5 1.4h2.1l1.5-1.5-.1-2.1z"
+                      fill="#000000" stroke-width="none" opacity="1"></path>
+                    <path id="SvgjsPath9700"
+                      d="m115.6 96.4.8 1-1.1-.7.3-.3zm1.8-.8v1.1l-.5-1 .5-.1zm1.6-.3-.3 1.2-.2-1.2h.5zm1.6.8-.7.8.3-1 .4.2zm1.3 1-1.2.7.9-1.1.3.4zm.5 1.7h-1.2l1.1-.5.1.5zm.1 1.3-1.1-.4 1.2-.1-.1.5zm-.8 1.3-.7-.7 1 .3-.3.4zm-.7 1.3-.7-1.1 1 .8-.3.3zm-1.6.5-.1-1.2.6 1.1-.5.1zm-1.6.2.4-1.1.1 1.2-.5-.1zm-1.9-1 .8-.8-.3 1.1-.5-.3zm-1.1-1.5.9-.3-.7.7-.2-.4zm-.4-1.5 1.2.3-1.2.2v-.5zm.4-1.7.7.6-.9-.1.2-.5z"
+                      fill="#cb78ad" stroke-width="none" opacity="1" stroke="none"></path>
+                    <path id="SvgjsPath9701" d="m115.7 97.1 2 1.8.5-.4-1.1-2.4-1.4 1zm3.6 4.2.5.8.8-.3-.4-.9-.9.4z"
+                      fill="#ffffff" stroke-width="none" opacity="1"></path>
+                  </g>
+                </g>
+              </g>
+              <g id="svga-group-eyesfront-right">
+                <path id="SvgjsPath12600"
+                  d="M124.3 86.6h-10.9l-7.7 7.9v11.1l7.7 7.9h10.9l7.7-7.9V94.5l-7.7-7.9zm-2 16-3.5.9-9.9-1 4.5-3.8 8.3-2.2 8.4.2-7.8 5.9z"
+                  fill="#f6e4e2" stroke-width="none" opacity="1"></path>
+                <path id="SvgjsPath12603" d="m107.8 102.7 1.1-.1 4.4-3.8 8.3-2.2 8.4.3-2.7-1.8-8.3-1.7-7.4 2.3z"
+                  fill="#eed2cf" stroke-width="none" opacity="1"></path>
+                <path id="SvgjsPath12604"
+                  d="m127.4 97.1 2.9.2 6-.8-6.3.1-9-.5-8 2.4-5.2 4.2 1 .1 4.6-3.8 8.3-2.2h.7l2.5 1.4 2.5.9-2.3-1.2-1.5-1 1.8.1 2.3.9 5.7.9-5.5-1.4z"
+                  fill="#000000" stroke-width="none" opacity="1"></path>
+              </g>
+            </g>
+          </g>
+          <g id="svga-group-facehighlight-single"></g>
+          <g id="svga-group-eyebrows-left-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-eyebrows-left-rotate"
+              transform="matrix(0.9825664732332879,-0.18591160716291474,0.18591160716291474,0.9825664732332879,-14.69277287621469,16.315859792498145)">
+              <g id="svga-group-eyebrows-left">
+                <path id="SvgjsPath7579" d="m90.8 83.2 1.1 3.1-1.6 3.7-12.1-1.3-10.8.1 1.2-1.4L80.7 83z" fill="#2a232b"
+                  stroke-width="none" opacity="1" stroke="none"></path>
+                <path id="SvgjsPath7580"
+                  d="M80.2 88.9v-2.4L81 89l-.8-.1zm5.1.6 2.6-5-1.7 5.1-.9-.1zm-8.5-.8L74.6 86l3 2.7h-.8zM82 84l.5 5.2-.7-.1.2-5.1zm-12.5 3.7 4.6 1.1H72l-2.5-1.1zm21.8-3.2-2.8 5.3-1.3-.1 4-5.3.1.1z"
+                  fill="#1b141c" stroke-width="none" opacity="1" stroke="none"></path>
+              </g>
+            </g>
+          </g>
+          <g id="svga-group-eyebrows-right-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-eyebrows-right-rotate"
+              transform="matrix(0.9825664725843336,0.1859116105927183,-0.1859116105927183,0.9825664725843336,18.179477120661844,-20.866461419490705)">
+              <g id="svga-group-eyebrows-right">
+                <path id="SvgjsPath7581" d="m109.2 83.2-1.1 3.1 1.6 3.7 12.1-1.3 10.8.1-1.2-1.4-12.1-4.4z"
+                  fill="#2a232b" stroke-width="none" opacity="1" stroke="none"></path>
+                <path id="SvgjsPath7582"
+                  d="M119.8 88.9v-2.4L119 89l.8-.1zm-5.1.6-2.6-5 1.7 5.1.9-.1zm8.5-.8 2.1-2.7-3 2.7h.9zM118 84l-.5 5.2.7-.1-.2-5.1zm12.5 3.7-4.6 1.1h2.1l2.5-1.1zm-21.8-3.2 2.8 5.3 1.3-.1-4-5.3-.1.1z"
+                  fill="#1b141c" stroke-width="none" opacity="1" stroke="none"></path>
+              </g>
+            </g>
+          </g>
+          <g id="svga-group-nose-single-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-nose-single">
+              <path id="SvgjsPath10447" d="m93.25 113.14-3.28 4.66 3.08 3.94 4.12-2.2-4.12 1.3-2.25-3.3z" fill="#d7a19b"
+                stroke-width="none" opacity="1" transform="translate(0 2)" stroke="none"></path>
+              <path id="SvgjsPath10448" d="m106.75 113.14 3.28 4.66-3.08 3.94-4.12-2.2 4.12 1.3 2.25-3.3z"
+                fill="#d7a19b" stroke-width="none" opacity="1" transform="translate(0 2)" stroke="none"></path>
+              <path id="SvgjsPath10449"
+                d="m104.97 117.51.95-2.11-1.74 2.4-4.18 2-4.18-2-1.74-2.4.95 2.11-2.3 1.13.84 1.23 2.67-1.15 3.76 2.05 3.76-2.05 2.67 1.15.84-1.23z"
+                fill="#d7a19b" stroke-width="none" opacity="1" transform="translate(0 2)" stroke="none"></path>
+              <path id="SvgjsPath10450" d="m96.3 110.5 1.55-.44 5.65.18-1.5-.8-4.6-.4z" fill="#d7a19b"
+                stroke-width="none" opacity="1" transform="translate(0 2)" stroke="none"></path>
+              <path id="SvgjsPath10451" d="m97.45 102.28-.8 6.94.75-.93.49-3.62z" fill="#d7a19b" stroke-width="none"
+                opacity="1" transform="translate(0 2)" stroke="none"></path>
+              <path id="SvgjsPath10452" d="m95.73 112.93 2.2-1.63 4.29-.05 1.94 1.95-1.37 3.75-3.04.53-2.74-.57z"
+                fill="#fef7f6" stroke-width="none" opacity="1" transform="translate(0 2)" stroke="none"></path>
+            </g>
+          </g>
+          <g id="svga-group-hair-front">
+            <path id="SvgjsPath12477"
+              d="m61 99.3-6.1-11.6L53 72.1l-10.6-1.3-5.1-8.4 2.8-14.8 7.1-7.2 5.1-10.1 15.2-7.8 12.3 3.1 1.5 2.6 5 6.5-.4 3.4 8.7.2 4.8 1.1 4-1.1 10.6.7-.4-3.6 6.3-7.9 9.1 1.1 13.3-.2 9.7 7 2.7 7.3 8 13.3-.2 6.6-4.2 6.3-5.3 3-6.7.2-.7 12.2-1 4.9-5.3 8.9.6-14.4-5-10.6-11.4-9.5-14.4-2.5-8 2.8-10.4-2.8-12.6 3.4-11 9.3L61 83.9z"
+              fill="#a46c47" stroke-width="none" opacity="1" stroke="none"></path>
+            <path id="SvgjsPath12478"
+              d="m85.5 59-6.1 10.2 4.9 13.7-2.1-12.7 7.4-10.1h5.1l6.3 3.8-6-6.2-9.5 1.3zM70.2 44.1l-3.6-14.6 1.7 13.4L61 54.4l-9.2-.8-2.6-9.6 1.5 11 11.5 1.5 8-12.4zm-29.8 8.7 3.2 12-1.5-11.7 5.4-9.5-7.1 9.2zm111.8-12.4-5.9-2.9-9.8 2.9-.7 10.7 9.3 8.5-7.6-9.2 1-7.8 6.8-3 5.9 1.9 3.6 5.1-2.6-6.2zm-38.6 19.8 13.9-.7 7.1-6.1-7.8 4.6-13.2 2.2zm-2.7-12.7-7.6 4.8 8.1-2.9 17.1-1-17.6-.9zM73.1 60.4l4.7 2.5-8.6-8.1 3.9 5.6zm-10.5.7c-.2.5-.7 8.5-.7 8.5l2.9 5.8-1.5-7.4-.7-6.9z"
+              fill="#ac7653" stroke-width="none" opacity="1" stroke="none"></path>
+            <path id="SvgjsPath12479"
+              d="M77.3 45.9h11.8l11 2.5-4-3.2-8.4-1.9-10.4 2.6zm47.9-1.5-6.1-1.5-11.8 1.7-5.9 4.8 8.9-3.4 14.9-1.6zm.4 8.3-14.4 1.1-10.6 5.5 19.2-2.3 13.1-5.1-7.3.8zm30.8-1.1-6.6-7.4-6.8 1.9-.6 5.5 3.2-3.6 8.7 4.2-.8 7.2 2.9-7.8zM54.1 61.2l2.2-.4h-2.1l1-3.8-1.8 3.8H49l-3.8-8.4 2.1-12-3.9 4-.8 4.2.8 6.7 5.5 7 4.3-.9-3.4 6.9-7 .2-4-3.5 3.6 5.8 6.1.8h.3l3.8-4.7 1.5-5.7zm16.4-9.6 2-1.7 12.5.6 11.2 4.9 3 2.5-5.9-7.8-12.9-1.9-7.8 1.6 9.1-7.9 6.6-3.8L86 38l.4-3.4-4.9-6.5-.9-1.1c-3.8-1.2-9.3-3-13.6-4.2L64.7 24c3.8.8 11.1 2.4 15.9 3.4-1 4.7-2.3 10.1-2.3 10.1s-9.5 2.3-8.9 2.3c.4 0 4.7 1.2 7.8 2l-9.4 6.8-7-2.5-2.5-4.2s2-11.5 3.1-16.3L58.8 27c-2.1 7.2-5.2 18.7-5.2 18.7l8.9 5.9h8zm-5.6 4.8 4.2-3.6-9.6 6.2-7 13 .6.1L55 87.7l6 11.6V83.9l1.8-3-2.6-4.4 1-16.9 3.7-3.2c.1 1.6.7 8.2 1 8.7.2.3 3.1 2.8 5.6 4.9l2.8-2.3-5.3-3.6-4.1-7.7zm54.4-16.6 10.4 6.1-9.3-9.9 3.5-8-4.1-.5-6.3 8 .5 3.5 5.3.8zm22.3-2.8h6.8l5.7 4.2-2.1-5.7-6.6-2.3-12.7 3.6s-.2 13.1-.2 13.7l3-10.1 6.1-3.4zm17.8 28.3-5.9 4.2-4.6-1.1-1.5-3.2 4-2.7s-5.5-.4-6.6-.6-5.7-6.8-5.7-6.8l1.5-9.5-3.2 9.7v.1l-7.1 6.2L124 64l3.5 2.9 5.3-2.6 4.7-8.7.8 3.7 1.9 3c-.8 3.2-1.9 7.7-1.9 8 0 .3-1.5 1.9-3.1 3.4l2.3 4.9 3.6-7.6-.1-7.4 4 6.4-1.3 12.8-4.1 8.2-.3 7.2 5.3-8.9.9-4.9.8-12.2 6.6-.2 5.3-3 4.2-6.3.2-6.7-3.2 9.3zm-69.7-5.2-7.4 10.1 6.9-7.8 5.4-1.2 6.5 2.7-6.3-3.8h-5.1z"
+              fill="#9c623c" stroke-width="none" opacity="1" stroke="none"></path>
+          </g>
+          <g id="svga-group-glasses-single-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-glasses-single"></g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="svga-credit-rect" width="200" height="15" x="0" y="185" fill="#ecf0f1" opacity="0.5"
+      style="display: none;"></rect><text id="svga-credit-text"
+      font-family="Avenir Next, Roboto, Helvetica, Arial, sans-serif" font-size="10px" text-anchor="start"
+      font-weight="400" size="10px" anchor="start" weight="400" fill="#333333" x="33.43669891357422"
+      y="182.60824704170227" style="display: none;">
+      <tspan id="SvgjsTspan6355" dy="13" x="33.43669891357422">Created on AvatarMaker.com</tspan>
+    </text>
+  </g>
+  <defs id="SvgjsDefs6307"></defs>
+</svg>

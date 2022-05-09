@@ -1,0 +1,16 @@
+cairosvg
+glitchart
+random-dog
+pillow
+notify2
+matplotlib
+opencv-python
+dbus-python
+quote
+nltk
+random_word
+jproperties
+cryptography
+virtualenv
+pyttsx3
+PyYaml

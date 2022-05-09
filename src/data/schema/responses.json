@@ -1,0 +1,69 @@
+[
+  {
+    "id": "H:R-N-0",
+    "iterations": ["I'm good.", "I've been better", "Nothing much."],
+    "paths": ["D:Q-N-1"]
+  },
+  {
+    "id": "H:R-N-1",
+    "iterations": [
+      "Things are tough right now.",
+      "Life is hard.",
+      "Bad.",
+      "I need a break.",
+      "What's the point?"
+    ],
+    "paths": ["D:Q-N-2"],
+    "events": ["DEC_SENTIMENT"]
+  },
+  {
+    "id": "H:R-N-2",
+    "iterations": ["I need help."],
+    "paths": ["D:Q-N-2"]
+  },
+  {
+    "id": "H:R-N-3",
+    "iterations": ["Thanks!", "Thank you.", "Cool!"],
+    "paths": ["D:Q-N-3"],
+    "events": ["INC_SENTIMENT"]
+  },
+  {
+    "id": "H:R-N-4",
+    "iterations": ["Sure, ask away!", "What have you been wondering about?"],
+    "paths": ["D:Q-I-1"]
+  },
+  {
+    "id": "H:R-N-5",
+    "iterations": [
+      "I was just kidding! What did you want to know?",
+      "Can't take a joke? What's your question?"
+    ],
+    "paths": ["D:Q-I-1"],
+    "events": ["REDUCE_SANITY"]
+  },
+  {
+    "id": "H:R-H-0",
+    "iterations": [
+      "Yes. I do mind.",
+      "You're an AI, can't you just look it up anyways?"
+    ],
+    "paths": ["D:Q-H-0"]
+  },
+  {
+    "id": "H:R-I-0",
+    "iterations": ["Draw a picture for me."],
+    "paths": ["D:Q-I-0"],
+    "events": ["DRAW_PICTURE"]
+  },
+  {
+    "id": "H:R-I-1",
+    "iterations": ["Inspire me."],
+    "paths": ["D:Q-N-2"],
+    "events": ["FORTUNE"]
+  },
+  {
+    "id": "H:R-I-2",
+    "iterations": ["Forget what I said", "*Make Deamona forget we ever spoke*"],
+    "paths": ["D:Q-N-0"]
+  }
+]

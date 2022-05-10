@@ -5,7 +5,7 @@ import subprocess
 import os
 
 
-def quiet_run(process, loc_args):
+def quiet_run(process, loc_args=[]):
     du = DirUtils()
     CWD = du.get_work_dir()
     subprocess_dir = du.get_subprocesses_dir()
@@ -13,7 +13,6 @@ def quiet_run(process, loc_args):
         subprocess_dir, 'quiet_' + str(process)) + '.py'
 
     cmd = ['python3', cmd_path] + list(loc_args)
-    print(cmd)
 
     ret = subprocess.Popen(cmd, cwd=(CWD))
 

@@ -18,7 +18,7 @@ class GUIUtils():
         GUIUtils.mood_path = os.path.join(
             GUIUtils.du.get_mood_dir(), 'mood.png')
         GUIUtils.ROOT.geometry("600x600")
-        GUIUtils.ROOT.title("Deamona")
+        GUIUtils.ROOT.title("Daemona")
         # self.root.attributes('-alpha', 0)
 
         img = ImageTk.PhotoImage(Image.open(GUIUtils.mood_path))

@@ -2,8 +2,8 @@
   {
     "id": "D:Q-N-0",
     "iterations": [
-      "Hi! I'm Deamona, you new PC assistant. How are you?",
-      "Hey it's Deamona! What's Up?",
+      "Hi! I'm Daemona, you new PC assistant. How are you?",
+      "Hey it's Daemona! What's Up?",
       "Heyyyyy hows it been?"
     ],
     "sentiment": "surprised",
@@ -46,9 +46,10 @@
   },
   {
     "id": "D:Q-I-1",
-    "iterations": ["Oh, well in that case, do you like ice cream?"],
+    "iterations": ["Oh, well in that case..."],
     "sentiment": "smirk",
-    "paths": ["H:R-N-3"]
+    "paths": ["H:R-N-3"],
+    "events": ["QUESTION_IDENTITY"]
   },
   {
     "id": "D:Q-H-0",

@@ -1,9 +1,11 @@
 # modules for generating random quotes and nlp
 from random import randint
 from quote import quote
-from nltk.corpus import wordnet
 import nltk
 from random_word import RandomWords
+from src.utils.events.Learn import get_synonyms
+
+
 
 
 def get_quote_from_word(word):
@@ -27,24 +29,12 @@ def get_quote_from_rand_word():
 
 
 # properly prints a quote object
-def print_quote(quote, speaker='Deamona'):
+def print_quote(quote, speaker='Daemona'):
     quote = quote[0]
     print()
     print(speaker + ": Here's a quote by " + quote['author'] + ".")
     print()
     print(quote['quote'])
-
-
-def get_synonyms(word):
-
-    synonyms = []
-
-    for syn in wordnet.synsets(word.lower()):
-        for lm in syn.lemmas():
-            synonyms.append(lm.name())
-
-    return list(set(synonyms))
-
 
 def get_synonym(word):
     synonyms = get_synonyms(word)

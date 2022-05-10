@@ -103,3 +103,10 @@ class DirUtils:
             db_configs_dict[item[0]] = int(item[1].data)
 
         return db_configs_dict
+
+    def read_csv_as_array(self, dir, csv_file):
+        f = open(os.path.join(dir, csv_file), "r+")
+        data = f.read()
+        f.close()
+
+        return map(str.strip, data.split(','))

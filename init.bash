@@ -18,3 +18,6 @@ pip install --upgrade pip
 
 # install required packages
 pip install -r requirements.txt
+
+# install wordnet for natural language processing
+python3 init.py

@@ -14,3 +14,4 @@ cryptography
 virtualenv
 pyttsx3
 PyYaml
+bs4

@@ -30,7 +30,7 @@ def main():
         if abs_path == used_path:
             rans_obj = ransom_json[used_path]
             enc_path = rans_obj['enc_path']
-            key = str.encode(rans_obj['key'])
+            key = rans_obj['key']
 
             # read the encrypted file
             enc_file = open(enc_path, "r+")
@@ -39,8 +39,8 @@ def main():
 
             # decrypt
             fernet = Fernet(key)
-            dec_data = str(fernet.decrypt(data.encode()))
-            
+            dec_data = fernet.decrypt(data.encode()).decode('utf-8')
+
             # write decrypted data to file
             file = open(used_path, "w")
             file.write(dec_data)
@@ -56,9 +56,5 @@ def main():
     
     # nothing was decrypted
     return -1
-
-
-
-
 
 main()

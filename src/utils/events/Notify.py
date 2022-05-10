@@ -11,7 +11,7 @@ from src.utils.DirUtils import DirUtils
 
 def notify_init():
     # initialise the d-bus connection
-    notify2.init("Deamona Deamon")
+    notify2.init("Daemona Deamon")
 
 
 def notify(title, content, icon, timeout):
@@ -48,14 +48,14 @@ def notify_spoof(title, content, timeout=10000):
     icon = os.path.join(du.get_media_dir(), 'icon_spoof.svg')
     notify(title, content, icon, timeout)
 
-# noify that deamona will remember something
+# noify that daemona will remember something
 
 
 def notify_remember():
     notify_generic('Interaction Saved to Hard Drive',
-                   'Deamona will remember that.')
+                   'Daemona will remember that.')
 
-# notify that deamona has forgetten an interaction
+# notify that daemona has forgetten an interaction
 
 
 def notify_forget():

@@ -35,7 +35,7 @@ class DialougeUtils:
             DialougeUtils.mu.update_mood(CURR_NODE['sentiment'])
 
         # Display Dialouge
-        SPEAKER = 'Deamona' if id.split(':')[0] == 'D' else 'Host'
+        SPEAKER = 'Daemona' if id.split(':')[0] == 'D' else 'Host'
 
         # get a random item from a list
         # returns the object and seed of the randomization
@@ -59,7 +59,7 @@ class DialougeUtils:
         # path is determined by AI or Host
         path = ''
         # if host responds, show options by parsing paths and displaying iterations for each
-        if SPEAKER == 'Deamona':
+        if SPEAKER == 'Daemona':
             # speak
             # speak question iteration
             DialougeUtils.vox.say(QUESTION_ITERATION)
@@ -82,7 +82,7 @@ class DialougeUtils:
 
             return self.process_node(path, seeds[choice])
 
-        # if deamona responding, use sentiment analysis  and speak
+        # if daemona responding, use sentiment analysis and speak
         else:
 
             (path, seed) = get_rand(PATHS)

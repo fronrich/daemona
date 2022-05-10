@@ -24,7 +24,7 @@ class MoodUtils:
     # return path to mood
 
     def update_mood(self, mood):
-        NAME = 'deamona'
+        NAME = 'daemona'
         mood_dir = self.mood_dir
 
         # updates the path to the svg which displays the mood

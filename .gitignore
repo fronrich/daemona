@@ -134,3 +134,6 @@ dmypy.json
 # mona ransomed files
 *.mona
 
+# test text file
+test.txt
+

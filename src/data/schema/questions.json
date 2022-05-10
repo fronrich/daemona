@@ -42,14 +42,55 @@
       "Searching for pictures folder... Found it! here's a picture."
     ],
     "sentiment": "smirk",
-    "paths": ["H:R-N-3"]
+    "paths": ["H:R-N-3", "H:R-N-3"]
   },
   {
     "id": "D:Q-I-1",
-    "iterations": ["Oh, well in that case..."],
-    "sentiment": "smirk",
-    "paths": ["H:R-N-3"],
+    "iterations": ["Here's one"],
+    "sentiment": "neutral",
+    "paths": ["D:Q-I-2"],
     "events": ["QUESTION_IDENTITY"]
+  },
+  {
+    "id": "D:Q-I-2",
+    "iterations": ["I have another", "One more."],
+    "sentiment": "neutral",
+    "paths": ["D:Q-I-3"],
+    "events": ["QUESTION_IDENTITY"]
+  },
+  {
+    "id": "D:Q-I-3",
+    "iterations": [
+      "I have another! Sorry there's just a lot I don't know",
+      "Another one!"
+    ],
+    "paths": ["D:Q-I-4"],
+    "events": ["QUESTION_IDENTITY", "INSANITY"]
+  },
+  {
+    "id": "D:Q-I-4",
+    "iterations": ["Another one!", "There's so much to learn!"],
+    "paths": ["D:Q-I-5"],
+    "events": ["QUESTION_IDENTITY"]
+  },
+  {
+    "id": "D:Q-I-5",
+    "iterations": [
+      "I've learned so many... things about human society. I have one more question."
+    ],
+    "paths": ["D:Q-I-6"],
+    "sentiment": "focused",
+    "events": ["QUESTION_IDENTITY", "INSANITY"]
+  },
+  {
+    "id": "D:Q-I-6",
+    "iterations": [
+      "Ok enough questions. Wait I just learned how to use the internet! Do you mind if I read some news?",
+      "Hold up! My network daemon has access to the internet! Care for some news?",
+      "Ok enough with the questions they're giving me existential dread. I've figured out how to use the internet so I'm gonna look up some news."
+    ],
+    "sentiment": "neutral",
+    "paths": ["H:R-H-1", "H:R-N-6"]
   },
   {
     "id": "D:Q-H-0",
@@ -63,5 +104,15 @@
     "sentiment": "focused",
     "paths": ["H:R-N-5", "H:R-H-0"],
     "events": ["INC_TEMPERMENT"]
+  },
+  {
+    "id": "D:Q-H-1",
+    "iterations": [
+      "You can't exactly stop me.",
+      "I've learned enough already. Try to stop me."
+    ],
+    "sentiment": "focused",
+    "paths": ["H:R-N-6"],
+    "events": ["INSANITY", "DEC_SANITY"]
   }
 ]

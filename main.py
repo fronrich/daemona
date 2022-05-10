@@ -30,7 +30,7 @@ def main():
     vox_engine.setProperty('rate', 150)
 
     # begin dialouge
-    du = DialougeUtils(sm, vox_engine)
+    du = DialougeUtils(sm, vox_engine, silent=True)
     # choose a root node in the dialogue network to begin on
     du.init_dialouge()
 

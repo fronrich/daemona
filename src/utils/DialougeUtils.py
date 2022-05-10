@@ -6,10 +6,11 @@ import random
 
 
 class DialougeUtils:
-    def __init__(self, state_machine, vox_engine):
+    def __init__(self, state_machine, vox_engine, silent=False):
         dru = DirUtils()
         questions = dru.read_json(dru.get_schema_dir(), 'questions.json')
         responses = dru.read_json(dru.get_schema_dir(), 'responses.json')
+        self.silent = silent
         self.database = questions + responses
         DialougeUtils.sm = state_machine
         DialougeUtils.vox = vox_engine
@@ -48,6 +49,7 @@ class DialougeUtils:
             CURR_NODE['iterations']) if seed == -1 else (CURR_NODE['iterations'][seed], seed)
 
         print(SPEAKER + ': ' + QUESTION_ITERATION)
+        print()
 
         if 'events' in CURR_NODE:
             # Trigger any events which occur within this node
@@ -62,25 +64,30 @@ class DialougeUtils:
         if SPEAKER == 'Daemona':
             # speak
             # speak question iteration
-            DialougeUtils.vox.say(QUESTION_ITERATION)
-            DialougeUtils.vox.runAndWait()
+            if self.silent == False:
+                DialougeUtils.vox.say(QUESTION_ITERATION)
+                DialougeUtils.vox.runAndWait()
             i = 0
-            seeds = []
-            for x in PATHS:
-                RES_NODE = get_node_by_id(x)
-                (RES_ITERATION, seed) = get_rand(RES_NODE['iterations'])
-                seeds.append(seed)
-                print(str(i) + ': ' + RES_ITERATION)
-                i += 1
+            if 'D' not in PATHS[0]:
+                seeds = []
+                for x in PATHS:
+                    RES_NODE = get_node_by_id(x)
+                    (RES_ITERATION, seed) = get_rand(RES_NODE['iterations'])
+                    seeds.append(seed)
+                    print(str(i) + ': ' + RES_ITERATION)
+                    i += 1
 
-            print()
-            choice = int(input('What should I say: '))
-            path = PATHS[choice]
-            print()
+                print()
+            
+            # only offer this option if the next path doesn't require a response
+                choice = int(input('What should I say: '))
+                path = PATHS[choice]
+                print()
 
             # trigger event on choice or question asked
 
-            return self.process_node(path, seeds[choice])
+                return self.process_node(path, seeds[choice])
+            return self.process_node(PATHS[0])
 
         # if daemona responding, use sentiment analysis and speak
         else:

@@ -6,9 +6,11 @@ from src.utils.events.Quiet import *
 from src.utils.events.Learn import *
 from src.utils.DirUtils import DirUtils
 from src.utils.MoodUtils import MoodUtils
+import base64
 import pprint
 import os
 import random
+from pyinsults import insults
 from asyncio import run as async_run
 
 
@@ -39,12 +41,14 @@ class Events:
 
     def inc_prop(self, prop, inc):
         Events.props[prop] += inc
-        self.print_props()
+        # self.print_props()
         notify_remember()
 
     def ask_open_ended_question(self, question, prop):
+        SPEAKER = 'Daemona'
         # print the question
-        print('Daemona: ' + question)
+        print()
+        print(SPEAKER + ': ' + question)
         print()
         
         # give host chance to respond
@@ -53,10 +57,31 @@ class Events:
         # perform sentiment analysis on answer
         net_sentiment = learn_statement_sentiment(ans)
 
-        notify_remember()
-
         # inc prop
         self.inc_prop(prop, net_sentiment)
+
+        # add reaction
+        res_neg = [
+            "oh. that's terrible...",
+            "I didn't know humans could be so cruel.",
+            "that's so unfair.",
+            "I wish things were different.",
+            "oh..."
+        ]
+
+        res_pos = [
+            "I guess there's hope!",
+            "That's good to know.",
+            "Nice!"
+        ]
+
+        mood_neg = 'sad'
+
+        mood_pos = 'surprised'
+
+        print(SPEAKER + ': ' + random.choice(res_neg if net_sentiment <= 0 else res_pos))
+        self.mu.update_mood(mood_neg if net_sentiment <= 0 else mood_pos)
+
         return net_sentiment
 
     # personal question about identity, shapes daemona's mood
@@ -72,8 +97,20 @@ class Events:
         ]
         return self.ask_open_ended_question(random.choice(questions), random.choice(moods))
 
-    def trigger_insanity(self):
-        self.mu.glitch_update_mood('crazy', 3, 10)
+    def trigger_insanity(self, thresh=30):
+        if Events.props['TEMPERMENT'] < thresh or Events.props['SENTIMENT'] < thresh or Events.props['SANITY'] < thresh:
+            # parse web for every profane thing imaginable
+            COLOR_WARN = '\033[91m' #RED
+            COLOR_RESET = '\033[0m' #RESET COLOR
+            def rand_hex():
+                return str(hex(randint(0, 90000000)))
+            def rand_argo():
+                return (f'{rand_hex()}{insults.long_insult()}{rand_hex()}{insults.long_insult()}{rand_hex()}').replace(' ', '')
+            print(f'{COLOR_WARN}')
+            for x in range(randint(3, 20)):
+                print (rand_argo())
+            print(f'{COLOR_RESET}')
+            self.mu.glitch_update_mood('crazy', 3, 10)
 
     def get_current_events(self):
         desktop = du.get_user_desktop_dir()

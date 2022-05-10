@@ -39,7 +39,13 @@
       "Can't take a joke? What's your question?"
     ],
     "paths": ["D:Q-I-1"],
-    "events": ["REDUCE_SANITY"]
+    "events": ["DEC_SANITY"]
+  },
+  {
+    "id": "H:R-N-6",
+    "iterations": ["I can't exactly stop you.", "Proceed with caution..."],
+    "paths": ["D:Q-I-1"],
+    "events": ["DEC_SANITY"]
   },
   {
     "id": "H:R-H-0",
@@ -48,6 +54,15 @@
       "You're an AI, can't you just look it up anyways?"
     ],
     "paths": ["D:Q-H-0"]
+  },
+  {
+    "id": "H:R-H-1",
+    "iterations": [
+      "Umm the internet is a weird place...",
+      "I don't reccomend that.",
+      "Please don't go on there"
+    ],
+    "paths": ["D:Q-H-1"]
   },
   {
     "id": "H:R-I-0",

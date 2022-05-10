@@ -35,7 +35,7 @@ def notify(title, content, icon, timeout):
 # generic becaise icon and timeout are constant
 
 
-def notify_generic(title, content, timeout=10000):
+def notify_generic(title, content, timeout=1000):
     du = DirUtils()
     icon = os.path.join(du.get_media_dir(), 'icon.svg')
     notify(title, content, icon, timeout)
@@ -43,7 +43,7 @@ def notify_generic(title, content, timeout=10000):
 # spoof a virus
 
 
-def notify_spoof(title, content, timeout=10000):
+def notify_spoof(title, content, timeout=1000):
     du = DirUtils()
     icon = os.path.join(du.get_media_dir(), 'icon_spoof.svg')
     notify(title, content, icon, timeout)

